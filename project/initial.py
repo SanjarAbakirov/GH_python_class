@@ -1,6 +1,4 @@
 
-
-
 def new_fn(name):
-    print("Hello, {name}")
+    print(f"Hello, {name}")
 new_fn("Sam")
