@@ -35,7 +35,16 @@
     # if __name__ == '__main__':
 # main()
 
+# -----My solution---------------
 
+
+
+
+
+
+
+
+# -------Tust practice -------
 # a = str(input("insert Name"))
 # b = int(input("insert integer"))
 # c= float(input("insert a float number"))
