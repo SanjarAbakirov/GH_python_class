@@ -1,3 +1,4 @@
+name = str(input('Please inser your name'))
 bill = None
 while bill is None:
     try:
@@ -8,4 +9,4 @@ while bill is None:
 tipsPercent = bill/10
 total = bill + tipsPercent
 
-print("Bill: %.2f. Tips: %.2f. Total: %.2f" % (bill, tipsPercent, total))
+print("Hello, %s. Your Bill is %.2f and the tips is %.2f. Total amount bill is %.2f" % (name, bill, tipsPercent, total))
