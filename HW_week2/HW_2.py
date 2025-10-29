@@ -8,4 +8,4 @@ while bill is None:
 tipsPercent = bill/10
 total = bill + tipsPercent
 
-print("Total bill: %.2f. Bill: %.2f. Tips: %.2f" % (bill, tipsPercent, total))
+print("Bill: %.2f. Tips: %.2f. Total: %.2f" % (bill, tipsPercent, total))
