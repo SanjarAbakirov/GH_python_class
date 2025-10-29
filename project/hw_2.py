@@ -72,8 +72,8 @@ def main(n):
 import unittest
 
 class MyTest(unittest.TestCase):
-  got = main(3)
-  expected = 27
+  got = main(5)
+  expected = 125
   def test(self):
     self.assertEqual(self.got, self.expected)
     if self.got == self.expected:
@@ -89,7 +89,6 @@ if __name__ == '__main__':
 
 
 # test fn (the second way)
-
 # def main():
 #     def test(got, expected):
 #         if got == expected:
