@@ -42,19 +42,20 @@
 # result = None
 
 # def testFn(a, b, c):
-#     return b + c
+#     f = b + c
+#     return f
 # result = testFn(a, b, c)
 # print("Hello %s, your result is %.2f" % (a, result))
 
 # -----------------
 
-def count(n):
-    if n == 0:
-        print('Engine!')
-    else:
-        print(n)
-        count(n-s1)
-count(10)
+# def count(n):
+#     if n == 0:
+#         print('Engine!')
+#     else:
+#         print(n)
+#         count(n-1)
+# count(10)
 
 
 
