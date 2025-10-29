@@ -37,7 +37,8 @@
 
 
 a = str(input("insert smth"))
-
+b = int(input("insert integer"))
+c= float(input("insert a float number"))
 def testFn(a):
     print("Hello +" + a)
 testFn(a)
