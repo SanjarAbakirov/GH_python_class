@@ -37,6 +37,62 @@
 
 # -----My solution---------------
 
+# Calls the above functions with interesting inputs
+
+# match-end
+# words = ['aba', 'xyz', 'aa', 'x', 'bbb']
+# words = ['', 'x', 'xy', 'xyx', 'xx']
+# words = ['aaa', 'be', 'abc', 'hello']
+
+# 'front_x'
+# words = ['bbb', 'ccc', 'axx', 'xzz', 'xaa']
+# words = ['ccc', 'bbb', 'aaa', 'xcc', 'xaa']
+words = ['mix', 'xyz', 'apple', 'xanadu', 'aardvark']
+
+
+# matching stage Match_end
+# def match_end(words):
+#     count = 0
+#     for word in words:
+#         if len(word) >= 3 and word[0] == word[-1]:
+#             count += 1
+#     return count
+    # # return sum(1 for word in words if len(word) >= 3 and word[0] == word[-1])
+
+
+# matching stage Front_x
+def front_x(words):
+    listX = []
+    list = []
+    
+    for word in words:
+        if word[0] == 'x':
+            listX.append(word)
+        else:
+            list.append(word)
+    words = listX + list
+    print(words)
+    return words
+front_x(words)
+
+
+# testing stage
+def test(got, expected):
+    if got == expected:
+        print(f"Test passed: Got is {got}, Expected {expected}")
+    else:
+        print(f"Test is not passed: Got is {got}, Expected {expected}")
+
+# input stage
+def main():
+    # test(match_end(words), 3)
+    # test(match_end(words), 2)
+    # test(match_end(words), 1)
+    # test(front_x(words), ['xaa', 'xzz', 'axx', 'bbb', 'ccc'])
+    # test(front_x(words), ['xaa', 'xcc', 'aaa', 'bbb', 'ccc'])
+    test(front_x(words), ['xanadu', 'xyz', 'aardvark', 'apple', 'mix'])
+    
+main()
 
 
 
@@ -44,7 +100,7 @@
 
 
 
-# -------Tust practice -------
+# -------Just practice -------
 # a = str(input("insert Name"))
 # b = int(input("insert integer"))
 # c= float(input("insert a float number"))
