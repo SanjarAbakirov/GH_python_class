@@ -36,12 +36,25 @@
 # main()
 
 
-a = str(input("insert Name"))
-b = int(input("insert integer"))
-c= float(input("insert a float number"))
-result = None
+# a = str(input("insert Name"))
+# b = int(input("insert integer"))
+# c= float(input("insert a float number"))
+# result = None
 
-def testFn(a, b, c):
-    return b + c
-result = testFn(a, b, c)
-print("Hello %s, your result is %.2f" % (a, result))
+# def testFn(a, b, c):
+#     return b + c
+# result = testFn(a, b, c)
+# print("Hello %s, your result is %.2f" % (a, result))
+
+# -----------------
+
+def count(n):
+    if n == 0:
+        print('Engine!')
+    else:
+        print(n)
+        count(n-s1)
+count(10)
+
+
+
