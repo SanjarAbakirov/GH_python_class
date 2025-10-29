@@ -39,6 +39,9 @@
 a = str(input("insert smth"))
 b = int(input("insert integer"))
 c= float(input("insert a float number"))
-def testFn(a):
-    print("Hello +" + a)
+
+def testFn(a, b, c):
+    result = b = c
+    return result
+    print("Hello %s, your result is %.2f" % (a, result))
 testFn(a)
