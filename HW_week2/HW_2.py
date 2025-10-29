@@ -1,7 +1,7 @@
 bill = None
 while bill is None:
     try:
-	    bill = float(input('enter the bill'))
+        bill = float(input('enter the bill'))
     except ValueError:
         print("Error")
 
