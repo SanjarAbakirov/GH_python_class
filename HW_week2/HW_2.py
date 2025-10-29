@@ -14,11 +14,11 @@
 # -----------------
 # Call the above functions with interesting inputs
 
-def main():
-    print('match_ends')
-    test(match_ends(['aba', 'xyz', 'aa', 'x', 'bbb']), 1)
-    test(match_ends(['', 'x', 'xy', 'xyx', 'xx]), 2)
-    test(match_ends(['aaa', 'be', 'abc', 'hello']), 3)
+# def main():
+#     print('match_ends')
+#     test(match_ends(['aba', 'xyz', 'aa', 'x', 'bbb']), 1)
+#     test(match_ends(['', 'x', 'xy', 'xyx', 'xx]), 2)
+#     test(match_ends(['aaa', 'be', 'abc', 'hello']), 3)
 
     # print()
     # print('front_x')
@@ -33,4 +33,7 @@ def main():
     # test(sort_last([(1, 7), (1, 3), (3, 4, 5), (2, 2)]), [(2, 2), (1, 3), (3, 4, 5), (1, 7)])
     
     # if __name__ == '__main__':
-main()
+# main()
+
+def testFn():
+    print("test function")
