@@ -96,8 +96,8 @@ def main():
 main()
 
 
-
-print(list(sorted(['mix', 'xyz', 'apple', 'xanadu', 'aardvark'])))
+# this is too ear;y method
+# print(list(sorted(['mix', 'xyz', 'apple', 'xanadu', 'aardvark'])))
 
 lst = ['mix', 'xyz', 'apple', 'xanadu', 'aardvark']
 lst.sort()
