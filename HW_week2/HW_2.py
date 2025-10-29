@@ -3,6 +3,7 @@ while bill is None:
     try:
 	    bill=float(input('enter the bill'))
     except ValueError:
+		
 	    print("Error")
 
 tipsPercent = bill/10
