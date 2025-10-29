@@ -1,9 +1,3 @@
-def repotest(name):
-    print(123)
-repotest()
-
-
-
 #!/usr/bin/python3
 # Copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
