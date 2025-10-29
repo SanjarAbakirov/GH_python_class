@@ -35,8 +35,9 @@
     # if __name__ == '__main__':
 # main()
 
-# -----My solution---------------
 
+
+# -----My solution---------------
 # Calls the above functions with interesting inputs
 
 # match-end
@@ -96,7 +97,11 @@ main()
 
 
 
+print(list(sorted(['mix', 'xyz', 'apple', 'xanadu', 'aardvark'])))
 
+lst = ['mix', 'xyz', 'apple', 'xanadu', 'aardvark']
+lst.sort()
+print(lst)
 
 
 
