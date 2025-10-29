@@ -36,12 +36,12 @@
 # main()
 
 
-a = str(input("insert smth"))
+a = str(input("insert Name"))
 b = int(input("insert integer"))
 c= float(input("insert a float number"))
+result = None
 
 def testFn(a, b, c):
-    result = b = c
-    return result
-    print("Hello %s, your result is %.2f" % (a, result))
-testFn(a)
+    return b + c
+result = testFn(a, b, c)
+print("Hello %s, your result is %.2f" % (a, result))
