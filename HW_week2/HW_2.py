@@ -35,5 +35,9 @@
     # if __name__ == '__main__':
 # main()
 
-def testFn():
-    print("test function")
+
+a = str(input("insert smth"))
+
+def testFn(a):
+    print("Hello +" + a)
+testFn(a)
