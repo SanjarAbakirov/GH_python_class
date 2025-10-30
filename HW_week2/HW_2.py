@@ -47,8 +47,8 @@
 
 # 'front_x'
 # words = ['bbb', 'ccc', 'axx', 'xzz', 'xaa']
-# words = ['ccc', 'bbb', 'aaa', 'xcc', 'xaa']
-words = ['mix', 'xyz', 'apple', 'xanadu', 'aardvark']
+words = ['ccc', 'bbb', 'aaa', 'xcc', 'xaa']
+# words = ['mix', 'xyz', 'apple', 'xanadu', 'aardvark']
 
 
 # matching stage Match_end
