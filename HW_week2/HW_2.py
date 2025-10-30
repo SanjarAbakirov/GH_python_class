@@ -103,8 +103,6 @@ def main():
     test(sort_last(tuple), [(2, 1), (3, 2), (1, 3)])
     # test(sort_last(tuple), [(3, 1), (1, 2), (2, 3)])
     # test(sort_last(tuple), [(2, 2), (1, 3), (3, 4, 5), (1, 7)])
-
-
 main()
 
 
