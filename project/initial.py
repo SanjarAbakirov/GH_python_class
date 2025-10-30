@@ -4,7 +4,6 @@
 # new_fn("Sam")
 
 
-
 # def my_function():
 #     print("Hellow from My fn")
 
