@@ -81,7 +81,6 @@ tuple = [(1, 7), (1, 3), (3, 4, 5), (2, 2)]
 def sort_last(tuple):
     num = sorted(tuple, key=lambda x: x[-1])
     return num
-print(sort_last(tuple))
 
 # testing stage
 def test(got, expected):
