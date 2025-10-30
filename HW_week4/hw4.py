@@ -15,3 +15,4 @@ tipsPercent = bill/10
 total = bill + tipsPercent
 
 print("Hello, %s. Your Bill is %.2f and the tips is %.2f. Total amount bill is %.2f" % (name, bill, tipsPercent, total))
+
