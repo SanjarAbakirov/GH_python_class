@@ -86,11 +86,11 @@ def sort_last(tuple):
 print(sort_last(tuple))
 
 # testing stage
-# def test(got, expected):
-#     if got == expected:
-#         print(f"Test passed: Got is {got}, Expected {expected}")
-#     else:
-#         print(f"Test is not passed: Got is {got}, Expected {expected}")
+def test(got, expected):
+    if got == expected:
+        print(f"Test passed: Got is {got}, Expected {expected}")
+    else:
+        print(f"Test is not passed: Got is {got}, Expected {expected}")
 
 # input stage
 # def main():
