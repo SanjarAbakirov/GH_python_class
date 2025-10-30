@@ -91,7 +91,6 @@ def main():
     # test(front_x(words), ['xaa', 'xzz', 'axx', 'bbb', 'ccc'])
     # test(front_x(words), ['xaa', 'xcc', 'aaa', 'bbb', 'ccc'])
     test(front_x(words), ['xanadu', 'xyz', 'aardvark', 'apple', 'mix'])
-    
 main()
 
 
