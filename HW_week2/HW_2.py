@@ -68,7 +68,7 @@ def front_x(words):
     
     for word in words:
         if word[0] == 'x':
-            listX.append(word)
+            listX.append.sort(word)
         else:
             list.append(word)
     words = listX + list
