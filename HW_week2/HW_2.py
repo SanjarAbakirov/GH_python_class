@@ -46,8 +46,8 @@
 # words = ['aaa', 'be', 'abc', 'hello']
 
 # 'front_x'
-# words = ['bbb', 'ccc', 'axx', 'xzz', 'xaa']
-words = ['ccc', 'bbb', 'aaa', 'xcc', 'xaa']
+words = ['bbb', 'ccc', 'axx', 'xzz', 'xaa']
+# words = ['ccc', 'bbb', 'aaa', 'xcc', 'xaa']
 # words = ['mix', 'xyz', 'apple', 'xanadu', 'aardvark']
 
 
@@ -88,8 +88,8 @@ def main():
     # test(match_end(words), 3)
     # test(match_end(words), 2)
     # test(match_end(words), 1)
-    # test(front_x(words), ['xaa', 'xzz', 'axx', 'bbb', 'ccc'])
-    test(front_x(words), ['xaa', 'xcc', 'aaa', 'bbb', 'ccc'])
+    test(front_x(words), ['xaa', 'xzz', 'axx', 'bbb', 'ccc'])
+    # test(front_x(words), ['xaa', 'xcc', 'aaa', 'bbb', 'ccc'])
     # test(front_x(words), ['xanadu', 'xyz', 'aardvark', 'apple', 'mix'])
 main()
 
