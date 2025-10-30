@@ -1,7 +1,6 @@
 # A match_ends
 
 # words = ["level", "property", "aza", "kazak", "python", "lesha", "amanda", "asa", "sas", "s", "de"]
-
 # def match_ends(words):
 #   arr = []
 #   count = 0
