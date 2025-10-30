@@ -100,6 +100,10 @@ def main():
     # test(front_x(words), ['xaa', 'xzz', 'axx', 'bbb', 'ccc'])
     # test(front_x(words), ['xaa', 'xcc', 'aaa', 'bbb', 'ccc'])
     # test(front_x(words), ['xanadu', 'xyz', 'aardvark', 'apple', 'mix'])
+    test(sort_last([(1, 3), (3, 2), (2, 1)]), [(2, 1), (3, 2), (1, 3)])
+    test(sort_last([(2, 3), (1, 2), (3, 1)]), [(3, 1), (1, 2), (2, 3)])
+    test(sort_last([(1, 7), (1, 3), (3, 4, 5), (2, 2)]), [(2, 2), (1, 3), (3, 4, 5), (1, 7)])
+
 
 main()
 
