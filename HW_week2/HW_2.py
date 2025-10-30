@@ -74,7 +74,6 @@ def front_x(words):
     words = listX + list
     print(words)
     return words
-front_x(words)
 
 
 # testing stage
