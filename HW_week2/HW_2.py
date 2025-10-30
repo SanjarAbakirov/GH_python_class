@@ -57,14 +57,14 @@ words = [(1, 3), (3, 2), (2, 1)], [(2, 1), (3, 2), (1, 3)]
 
 
 
-# matching stage Match_end
-# def match_end(words):
-#     count = 0
-#     for word in words:
-#         if len(word) >= 3 and word[0] == word[-1]:
-#             count += 1
-#     return count
-    # # return sum(1 for word in words if len(word) >= 3 and word[0] == word[-1])
+matching stage Match_end
+def match_end(words):
+    count = 0
+    for word in words:
+        if len(word) >= 3 and word[0] == word[-1]:
+            count += 1
+    return count
+    # return sum(1 for word in words if len(word) >= 3 and word[0] == word[-1])
 
 # matching stage Front_x
 # def front_x(words):
