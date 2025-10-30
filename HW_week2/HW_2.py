@@ -53,9 +53,7 @@
 # 'sort_last'
 # tuple = [(1, 3), (3, 2), (2, 1)]
 # tuple = [(2, 3), (1, 2), (3, 1)]
-  tuple = [(1, 7), (1, 3), (3, 4, 5), (2, 2)]
-
-
+tuple = [(1, 7), (1, 3), (3, 4, 5), (2, 2)]
 
 # matching stage Match_end
 # def match_end(words):
