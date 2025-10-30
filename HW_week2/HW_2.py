@@ -86,7 +86,7 @@ def sort_last(tuple):
     num.sort()
     print(num)
     return num
-
+sort_last(tuple)
 
 # testing stage
 # def test(got, expected):
