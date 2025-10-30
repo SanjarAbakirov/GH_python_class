@@ -81,18 +81,18 @@ tuple = [(2, 3), (1, 2), (3, 1)], [(3, 1), (1, 2), (2, 3)]
 
 # matching stage Sort_last
 def sort_last(tuple):
-
+    num = item[0] for item in tuple
 
 
 # testing stage
-def test(got, expected):
-    if got == expected:
-        print(f"Test passed: Got is {got}, Expected {expected}")
-    else:
-        print(f"Test is not passed: Got is {got}, Expected {expected}")
+# def test(got, expected):
+#     if got == expected:
+#         print(f"Test passed: Got is {got}, Expected {expected}")
+#     else:
+#         print(f"Test is not passed: Got is {got}, Expected {expected}")
 
 # input stage
-def main():
+# def main():
     # test(match_end(words), 3)
     # test(match_end(words), 2)
     # test(match_end(words), 1)
