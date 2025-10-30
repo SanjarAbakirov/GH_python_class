@@ -20,8 +20,8 @@
 # Lesson #4 logical operators
 
 # boolean
-x != 2
-print(x == 2) # prints true by default
+x = 2
+print(x != 2) # prints true by default
 print(x == 3) # prints false by default
 print(x < 3) # prints true by default
 
