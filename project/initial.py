@@ -55,8 +55,7 @@
 
 # insert
 mylist2 = ['larry', 'curly', 'moe']
-# mylist2.append('shrimp') 
-# appended the element
+# mylist2.append('shrimp')
 # mylist2.insert(1, "Sammy")
 
 # print(mylist2[0]) 
