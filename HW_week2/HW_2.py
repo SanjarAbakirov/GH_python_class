@@ -96,9 +96,9 @@ main()
 # this is too early method
 # print(list(sorted(['mix', 'xyz', 'apple', 'xanadu', 'aardvark'])))
 
-lst = ['mix', 'xyz', 'apple', 'xanadu', 'aardvark', 'xerox']
-lst.sort()
-print(lst)
+# lst = ['mix', 'xyz', 'apple', 'xanadu', 'aardvark', 'xerox']
+# lst.sort()
+# print(lst)
 
 
 
