@@ -72,7 +72,6 @@ def front_x(words):
         else:
             list.append.sort(word)
     words = listX + list
-    print(words)
     return words
 
 
