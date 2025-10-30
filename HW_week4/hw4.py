@@ -23,4 +23,6 @@
 x = 2
 print(x == 2) # prints true by default
 print(x == 3) # prints false by default
-print(x < 3)
+print(x < 3) # prints true by default
+
+
