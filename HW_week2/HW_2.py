@@ -99,7 +99,7 @@ main()
 # this is too early method
 # print(list(sorted(['mix', 'xyz', 'apple', 'xanadu', 'aardvark'])))
 
-lst = ['mix', 'xyz', 'apple', 'xanadu', 'aardvark']
+lst = ['mix', 'xyz', 'apple', 'xanadu', 'aardvark', 'Sanjar']
 lst.sort()
 print(lst)
 
