@@ -66,20 +66,22 @@
 #     return count
     # # return sum(1 for word in words if len(word) >= 3 and word[0] == word[-1])
 
-
 # matching stage Front_x
-def front_x(words):
-    listX = []
-    list = []
-    
-    for word in words:
-        if word[0] == 'x':
-            listX.append(word)
-        else:
-            list.append(word)
-    listX.sort()
-    list.sort()
-    return listX + list
+# def front_x(words):
+#     listX = []
+#     list = []
+#     for word in words:
+#         if word[0] == 'x':
+#             listX.append(word)
+#         else:
+#             list.append(word)
+#     listX.sort()
+#     list.sort()
+#     return listX + list
+
+# matching stage Sort_last
+def sort_last(tuples):
+
 
 
 # testing stage
