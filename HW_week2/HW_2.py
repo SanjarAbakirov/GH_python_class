@@ -71,8 +71,8 @@ def front_x(words):
             listX.append.sort(word)
         else:
             list.append.sort(word)
-    words = listX + list
-    return words
+    # words = listX + list
+    return listX + list
 
 
 # testing stage
