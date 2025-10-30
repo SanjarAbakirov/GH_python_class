@@ -81,9 +81,7 @@ tuple = [(2, 3), (1, 2), (3, 1)]
 
 # matching stage Sort_last
 def sort_last(tuple):
-    num = [item[1] for item in tuple]
-    num.sort()
-    print(num)
+    num = sirted(tuple, key=lambda x: x[-1])
     return num
 sort_last(tuple)
 
