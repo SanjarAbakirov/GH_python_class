@@ -93,7 +93,7 @@ def test(got, expected):
         print(f"Test is not passed: Got is {got}, Expected {expected}")
 
 # input stage
-# def main():
+def main():
     # test(match_end(words), 3)
     # test(match_end(words), 2)
     # test(match_end(words), 1)
