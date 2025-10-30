@@ -96,7 +96,7 @@ def main():
 main()
 
 
-# this is too ear;y method
+# this is too early method
 # print(list(sorted(['mix', 'xyz', 'apple', 'xanadu', 'aardvark'])))
 
 lst = ['mix', 'xyz', 'apple', 'xanadu', 'aardvark']
