@@ -46,7 +46,7 @@
 # words = ['aaa', 'be', 'abc', 'hello']
 
 # 'front_x'
-words = ['bbb', 'ccc', 'axx', 'xzz', 'xaa']
+# words = ['bbb', 'ccc', 'axx', 'xzz', 'xaa']
 # words = ['ccc', 'bbb', 'aaa', 'xcc', 'xaa']
 # words = ['mix', 'xyz', 'apple', 'xanadu', 'aardvark']
 
