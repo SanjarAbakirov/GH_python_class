@@ -18,6 +18,8 @@ tips = bill/10
 def thanks(tips):
     if tips > 20:
         return "Thank you for your generosity!"
+    else:
+        return "Thank you!"
 
 
 
