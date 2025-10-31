@@ -1,9 +1,9 @@
 # # Bill Calculator with people's names
-people_list = []
+people = []
 
 # name = str(input('Please insert your name'))
 people = str(input('Please insert name of participants'))
-people_list.append(people)
+people.append(people)
 # words = people_list[0].split()
 # print(words)
 print(people_list[0].split())
