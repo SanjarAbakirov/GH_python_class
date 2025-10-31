@@ -11,6 +11,7 @@ print(people_list[:])
 
 
 
+
 # bill = None
 # while bill is None:
 #     try:
