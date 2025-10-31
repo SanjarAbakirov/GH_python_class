@@ -3,7 +3,7 @@
 
 # name = str(input('Please insert your name'))
 people = str(input('Please insert name of participants'))
-
+yourFriendsNames = []
 print(yourFriendsNames = people.split(','))
 
 # bill = None
