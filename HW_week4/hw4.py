@@ -13,7 +13,7 @@ while bill is None:
     except ValueError:
         print("Error")
 
-tipsPercent = bill/10
+tips = bill/10
 
 def tipThanks(bill):
 
