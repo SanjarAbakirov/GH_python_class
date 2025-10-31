@@ -4,7 +4,8 @@ list = []
 # name = str(input('Please insert your name'))
 people = str(input('Please insert name of participants'))
 list.append(people)
-print(list[0].split())
+x = (list[0].split()
+# print(list[0].split())
 num = len(list)
 print(len)
 
