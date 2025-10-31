@@ -7,7 +7,6 @@ list.append(people)
 num = len(list[0].split())
 print(num)
 
-
 # bill = None
 # while bill is None:
 #     try:
