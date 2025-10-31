@@ -6,7 +6,7 @@ people = str(input('Please insert name of participants'))
 list.append(people)
 # words = people_list[0].split()
 # print(words)
-print(people_list[0].split())
+print(list[0].split())
 
 
 
