@@ -15,7 +15,7 @@ while bill is None:
 
 tips = bill/10
 
-def tipThanks(bill):
+def thanks(bill):
 
 
 
