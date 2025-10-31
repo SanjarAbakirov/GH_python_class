@@ -3,7 +3,7 @@ people_list = []
 
 # name = str(input('Please insert your name'))
 people = str(input('Please insert name of participants'))
-people_list.append(people)
+people_list.append(people).split(',')
 print(people_list)
 
 
