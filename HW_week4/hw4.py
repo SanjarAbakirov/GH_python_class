@@ -5,7 +5,8 @@ list = []
 people = str(input('Please insert name of participants'))
 list.append(people)
 print(list[0].split())
-
+num = len(list)
+print(len)
 
 
 
