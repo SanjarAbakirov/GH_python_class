@@ -1,9 +1,9 @@
 # # Bill Calculator with people's names
-# people_list = []
+people_list = []
 
 # name = str(input('Please insert your name'))
 people = str(input('Please insert name of participants'))
-yourFriendsNames = []
+friends = people_list.append(people)
 print(yourFriendsNames = people.split(','))
 
 # bill = None
