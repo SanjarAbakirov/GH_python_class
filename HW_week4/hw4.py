@@ -15,8 +15,8 @@ while bill is None:
         print("Error")
 
 tipsPercent = bill/10
-total = (bill + tipsPercent)/num
-share = total
+total = (bill + tipsPercent)
+share = total/num
 
 print("Hello, %s. Your Bill is %.2f and the tips is %.2f. Total amount bill is %.2f. The share from each is: %d" % (name, bill, tipsPercent, total, share))
 
