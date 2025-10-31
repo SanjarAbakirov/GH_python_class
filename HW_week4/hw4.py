@@ -19,7 +19,6 @@ def thanks(tips):
     if tips > 20:
         return "Thank you for your generosity!"
 
-
 total = (bill + tips)
 share = total/num
 
