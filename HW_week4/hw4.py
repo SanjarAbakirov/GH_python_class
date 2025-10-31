@@ -4,7 +4,7 @@ people_list = []
 # name = str(input('Please insert your name'))
 people = str(input('Please insert name of participants'))
 friends = people_list.append(people)
-print(yourFriendsNames = people.split(','))
+print(friends = people.split(','))
 
 # bill = None
 # while bill is None:
