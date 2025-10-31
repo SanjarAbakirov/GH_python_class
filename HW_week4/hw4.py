@@ -7,15 +7,15 @@ list.append(people)
 num = len(list[0].split())
 print(num)
 
-# bill = None
-# while bill is None:
-#     try:
-#         bill = float(input('enter the bill'))
-#     except ValueError:
-#         print("Error")
+bill = None
+while bill is None:
+    try:
+        bill = float(input('enter the bill'))
+    except ValueError:
+        print("Error")
 
-# tipsPercent = bill/10
-# total = bill + tipsPercent
+tipsPercent = bill/10
+total = bill + tipsPercent
 
 # print("Hello, %s. Your Bill is %.2f and the tips is %.2f. Total amount bill is %.2f" % (name, bill, tipsPercent, total))
 
