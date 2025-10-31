@@ -5,7 +5,6 @@ name = str(input('Please insert your name'))
 people = str(input('Please insert name of participants'))
 list.append(people)
 num = len(list[0].split())
-print(num)
 
 bill = None
 while bill is None:
