@@ -5,3 +5,4 @@ list = str.split()
 print(list)
 
 dict = Counter(list)
+print(dict)
