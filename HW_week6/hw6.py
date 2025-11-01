@@ -4,11 +4,10 @@ from collections import Counter
 
 sentence = str(input("Enter your sentence: "))
 
-
-list = sentence.split()
+# list = sentence.split()
 # print(list)
 
-dict = Counter(list)
+dict = Counter(sentence.split())
 print(dict)
 
 dict2 = dict.most_common(len(dict))
