@@ -3,3 +3,4 @@ str ="My very photogenic mother died in a freak accident (picnic, lightning) whe
 list = str.split()
 print(list)
 
+   
