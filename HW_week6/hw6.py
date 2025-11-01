@@ -8,3 +8,4 @@ dict = Counter(list)
 print(dict)
 
 dict2 = dict.most_common(3)
+print(dict2)
