@@ -4,9 +4,6 @@ from collections import Counter
 
 sentence = str(input("Enter your sentence: "))
 
-# list = sentence.split()
-# print(list)
-
 dict = Counter(sentence.split())
 print(dict)
 
