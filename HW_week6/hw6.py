@@ -6,3 +6,5 @@ list = str.split()
 
 dict = Counter(list)
 print(dict)
+
+dict2 = dict.most_common(3)
