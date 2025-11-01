@@ -5,7 +5,7 @@ list = str.split()
 # print(list)
 
 dict = Counter(list)
-print(dict)
+# print(dict)
 
 # dict2 = dict.most_common(len(dict))
 for i in range(len(dict)):
