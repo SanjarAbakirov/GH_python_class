@@ -13,5 +13,5 @@ print(dictionary)
 # for i in range(len(dict)):
 #     dict2 = dict.most_common(i+1)
 
-print(dict2)
+# print(dict2)
 
