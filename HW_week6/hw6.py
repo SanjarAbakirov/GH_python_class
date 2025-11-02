@@ -6,7 +6,7 @@ sentence = str(input("Enter your sentence: "))
 
 dict = Counter(sentence.split())
 dictionary = dict.items()
-print(dict)
+print(dictionary)
 
 dict2 = dict.most_common(len(dict))
 
