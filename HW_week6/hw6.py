@@ -4,8 +4,8 @@ from collections import Counter
 
 sentence = str(input("Enter your sentence: "))
 
-dict = Counter(sentence.split())
-dictionary = dict(dict)
+x = Counter(sentence.split())
+dictionary = dict(x)
 print(dictionary)
 
 # dict2 = dict.most_common(len(dict))
