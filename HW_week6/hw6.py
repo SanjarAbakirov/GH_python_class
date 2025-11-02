@@ -8,7 +8,7 @@ dict = Counter(sentence.split())
 dictionary = dict.items()
 print(dictionary)
 
-dict2 = dict.most_common(len(dict))
+# dict2 = dict.most_common(len(dict))
 
 # for i in range(len(dict)):
 #     dict2 = dict.most_common(i+1)
