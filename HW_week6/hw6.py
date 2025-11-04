@@ -8,8 +8,4 @@ splitedSentece = Counter(sentence.split())
 dictionary = dict(splitedSentece)
 print(dictionary)
 
-# dict2 = dict.most_common(len(dict))
-# for i in range(len(dict)):
-#     dict2 = dict.most_common(i+1)
-# print(dict2)
-
+# Hello
