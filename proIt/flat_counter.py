@@ -9,5 +9,5 @@ entrance_number = (flat_number - 1) // 8 + 1
 floor_number = (flat_number - 1) % 8 // 2 + 1
 
 
-print(entrance_number)
-print(floor_number)
+print("Подъезд №: %d")(entrance_number)
+print("Этаж №:" + floor_number)
