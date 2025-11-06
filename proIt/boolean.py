@@ -56,12 +56,13 @@
 
 # --leap year -------
 
-year = 2004
+year = 2008
 # if year % 4 == 0 and year % 100 != 0: # the first option
 if not year % 4 and year % 100:  # the second option
     print("Leap year")
 # здесь от пройдет без остатка но на 100 без остатака не разделится
-elif year % 400 == 0:
+# elif year % 400 == 0:
+elif not year % 400:
     # here it is supposed to be divided by 400
     print("year is leap")
 else:
