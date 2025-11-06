@@ -4,7 +4,7 @@
 # # print(my_string)
 # # print(his_string)
 
-big_text = "В математике повсеместно используются символы для упрощения и сокращения текста. Ниже приведён список наиболее часто встречающихся математических обозначений, соответствующие команды в TeX, объяснения и примеры использования. Список и смысл обозначений соответствует международным стандартам ISO 31-11 и ISO 80000-2[1]"
+big_text = "I am creating heap allocated memory with execute rights using windows.h VirtualAlloc and VirtualProtect"
 # # print(big_text)
 
 # first_name = "Alice"
@@ -47,7 +47,12 @@ big_text = "В математике повсеместно используют�
 # print(my_string.replace("world", "Python"))
 
 # -------------------------
-# definding the quantity of leters or symbols
-my_string = "Hello world, I am good"
-# print(my_string.count("o"))
-print(big_text.count("e"))
+# # definding the quantity of leters or symbols
+# my_string = "Hello world, I am good"
+# # print(my_string.count("o"))
+# print(big_text.count("z"))
+
+# --------------------------
+# how to defind int in strings
+my_string = "10"
+print(my_string.isdigit())  # retrns True
