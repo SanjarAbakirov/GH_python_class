@@ -6,5 +6,6 @@ x = 10
 y = 10
 # print(x == y)
 is_equal = x != y
-print(is_equal)
+# print(is_equal)
+# print(x < 5 and x > 2)
 # ----------------------
