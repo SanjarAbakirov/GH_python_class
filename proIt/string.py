@@ -26,5 +26,14 @@
 
 # ---big int -----
 
-bit_integer = 2 ** 1000
-print(len(str(bit_integer)))
+# bit_integer = 2 ** 1000
+# print(len(str(bit_integer)))
+
+#  operator "in" depicts invasion sib-string to a string
+
+my_string = "Hello world!"
+# print("Hello" in my_string)  # returns boolean value true or false
+
+# -----caps-----
+print(my_string.upper())
+big_string = "HEY COME BACK"
