@@ -4,7 +4,7 @@
 # # print(my_string)
 # # print(his_string)
 
-# big_text = "В математике повсеместно используются символы для упрощения и сокращения текста. Ниже приведён список наиболее часто встречающихся математических обозначений, соответствующие команды в TeX, объяснения и примеры использования. Список и смысл обозначений соответствует международным стандартам ISO 31-11 и ISO 80000-2[1]"
+big_text = "В математике повсеместно используются символы для упрощения и сокращения текста. Ниже приведён список наиболее часто встречающихся математических обозначений, соответствующие команды в TeX, объяснения и примеры использования. Список и смысл обозначений соответствует международным стандартам ISO 31-11 и ISO 80000-2[1]"
 # # print(big_text)
 
 # first_name = "Alice"
@@ -39,13 +39,15 @@
 # big_string = "HEY COME BACK"
 # print(big_string.lower())
 
-space_string = "     Hello    I am good    "
+# space_string = "     Hello    I am good    "
 # the method deleyts only spaces on the leaft and right
-print(space_string.strip())
+# print(space_string.strip())
 
-my_string = "Hello world!"
-print(my_string.replace("world", "Python"))
+# my_string = "Hello world!"
+# print(my_string.replace("world", "Python"))
 
 # -------------------------
 # definding the quantity of leters or symbols
-print(my_string.count("e"))
+my_string = "Hello world, I am good"
+# print(my_string.count("o"))
+print(big_text.count("e"))
