@@ -5,6 +5,6 @@ is_graduated = False
 x = 10
 y = 10
 # print(x == y)
-is_equal = x == y
+is_equal = x != y
 print(is_equal)
 # ----------------------
