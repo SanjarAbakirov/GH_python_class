@@ -1,5 +1,5 @@
-is_student = True
-is_graduated = False
+# is_student = True
+# is_graduated = False
 # print(is_student)
 # ----------------------
 # x = 10
@@ -26,10 +26,20 @@ is_graduated = False
 
 # ------------------------
 
-x = 10
-y = 10
-# if x > 0:
-#     if y > 0:
+# x = 10
+# y = 10
+# # if x > 0:
+# #     if y > 0:
+# #  it is better we need two conditions make iside sinle  conditions operator and put "and"
+# if x > 0 and y > 0:
+#     print("x & y are positive")
 
-print("x & y are positive")
-#  it is better we need two conditions make iside sinle  conditions operator and put "and"
+# -------------------------
+
+message = "Hello"
+if message:
+    # print("message is not empty")
+
+message1 = ""
+if message1:
+    print("message is empty")
