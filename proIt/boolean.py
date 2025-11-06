@@ -36,10 +36,19 @@
 
 # -------------------------
 
-message = "Hello"
-if message:
-    # print("message is not empty")
+# message = "Hello"
+# if message:
+# print("message is not empty")
 
-message1 = ""
-if message1:
-    print("message is empty")
+# message1 = ""
+# if bool(message1):
+#     print("message is empty")
+
+# -------------------------
+
+# x = 0
+# if x:
+#     print("x is not zero")
+
+# if we have empty str or zero value of a variabe - the code does not execute
+# ------------------------
