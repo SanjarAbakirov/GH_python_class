@@ -35,5 +35,10 @@ my_string = "Hello world!"
 # print("Hello" in my_string)  # returns boolean value true or false
 
 # -----caps-----
-print(my_string.upper())
+# print(my_string.upper())
 big_string = "HEY COME BACK"
+# print(big_string.lower())
+
+space_string = "     Hello    I am good    "
+# the method deleyts only spaces on the leaft and right
+print(len(space_string.strip()))
