@@ -15,10 +15,21 @@ is_graduated = False
 
 # ----------------------
 
-x = 0
-if x > 0:
-    print("x is positive")
-elif x < 0:
-    print("x is negative")
-else:
-    print("x is zero")
+# x = 10
+# if x > 0:
+#     print("x is positive")
+# elif x < 1:
+#     print("x is negative")
+# else:
+#     print("x is zero")
+# if conditions layer on top, the first condition will be executed
+
+# ------------------------
+
+x = 10
+y = 10
+# if x > 0:
+#     if y > 0:
+
+print("x & y are positive")
+#  it is better we need two conditions make iside sinle  conditions operator and put "and"
