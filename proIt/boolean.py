@@ -56,10 +56,12 @@
 
 # --leap year -------
 
-year = 2000
-
+year = 2020
 if year % 4 == 0 and year % 100 != 0:
     print("Leap year")
 # здесь от пройдет без остатка но на 100 без остатака не разделится
 elif year % 400 == 0:
+    # here it is supposed to be divided by 400
     print("year is leap")
+else:
+    print("year is not leap")
