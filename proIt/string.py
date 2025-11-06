@@ -64,6 +64,22 @@ big_text = "I am creating heap allocated memory with execute rights using window
 
 # -------------------------
 # Formating (adding data)
-name = "Dima"
-age = 25
-print(f"Hello, my name is {name} and I'm {age} years old")
+# name = "Dima"
+# age = 25
+# print(f"Hello, my name is {name} and I'm {age} years old")
+
+# ----
+
+x = 10
+y = 5
+
+print(f"summary is {x + y}, multiplication is {x * y}")
+
+# ------quize-------------
+my_string = input("Enter a number: ")
+
+if my_string.isdigit():
+    my_integer = int(my_string)
+    print(my_integer)
+else:
+    print(f"{my_string} is not a number)
