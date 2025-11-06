@@ -54,5 +54,11 @@ big_text = "I am creating heap allocated memory with execute rights using window
 
 # --------------------------
 # how to defind int in strings
-my_string = "10"
-print(my_string.isdigit())  # retrns True
+# my_string = "10"
+# print(my_string.isdigit())  # retrns True
+
+integer = input("Give a number: ")
+if integer.isdigit():
+    integer = int(integer)
+
+print(type(integer))
