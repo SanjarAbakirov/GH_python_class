@@ -73,7 +73,7 @@ big_text = "I am creating heap allocated memory with execute rights using window
 x = 10
 y = 5
 
-print(f"summary is {x + y}, multiplication is {x * y}")
+# print(f"summary is {x + y}, multiplication is {x * y}")
 
 # ------quize-------------
 my_string = input("Enter a number: ")
@@ -82,4 +82,8 @@ if my_string.isdigit():
     my_integer = int(my_string)
     print(my_integer)
 else:
-    print(f"{my_string} is not a number)
+    print(f"{my_string} is not a number")
+
+# ----------------homework-----------
+# forma() - str format method python - string method
+# '%' - percent formatting python
