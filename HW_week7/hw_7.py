@@ -31,3 +31,11 @@ largest_empty = find_largest_number(empty_list)
 print(f"The largest number in the empty list is: {largest_empty}")
 
 # -----------
+
+
+my_list = ["apple", "banana", "cherry", "date"]
+index = 0
+
+while index < len(my_list):
+    print(my_list[index])
+    index += 1
