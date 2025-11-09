@@ -17,7 +17,6 @@ def find_largest_number(numbers):
     for num in numbers:
         if num > max_num:
             max_num = num  # Update max_num if a larger number is found
-
     return max_num
 
 
