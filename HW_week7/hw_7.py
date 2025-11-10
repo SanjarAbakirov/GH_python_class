@@ -72,3 +72,15 @@ print(sorted_lists_in_tuple)
 # Output: ([1, 2, 5], [1, 5, 7], [5, 5, 6])
 
 # ------------
+# How to sort a list/tuple of lists/tuples by the element at a given index
+
+# Source - https://stackoverflow.com/q/3121979
+# Posted by Stan, modified by community. See post 'Timeline' for change history
+# Retrieved 2025-11-10, License - CC BY-SA 4.0
+
+data = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+data = [(1, 2, 3), (4, 5, 6), (7, 8, 9)]
+
+
+sorted(data, key=lambda tup: (tup[1], tup[2]))
+[(1, 1, 4), (1, 2, 1), (1, 2, 3)]
