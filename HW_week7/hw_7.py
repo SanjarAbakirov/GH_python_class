@@ -60,3 +60,15 @@ print(sorted_by_second)
 sorted_by_second_itemgetter = sorted(data, key=itemgetter(1))
 print(sorted_by_second_itemgetter)
 # Output: [(4, 1), (3, 2), (1, 5), (2, 8)]
+
+
+# -------------
+# If you have a tuple containing lists, and you want to sort each list within that tuple,
+# you can use a list comprehension combined with sorted() and tuple().
+
+a = ([2, 1, 5], [1, 5, 7], [5, 6, 5])
+sorted_lists_in_tuple = tuple([sorted(i) for i in a])
+print(sorted_lists_in_tuple)
+# Output: ([1, 2, 5], [1, 5, 7], [5, 5, 6])
+
+# ------------
