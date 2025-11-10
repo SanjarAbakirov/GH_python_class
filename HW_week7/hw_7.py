@@ -1,3 +1,6 @@
+from operator import itemgetter
+
+
 def find_largest_number(numbers):
     """
     This algorithm finds the largest number in a given list of numbers.
@@ -38,3 +41,22 @@ index = 0
 while index < len(my_list):
     print(my_list[index])
     index += 1
+
+
+# ------------
+# Custom Sorting with key Argument:
+    # To sort based on a different element within the tuples (e.g., the second element,
+    # or a calculated value), use the key rgument with a lambda function or itemgetter.
+
+
+data = [(4, 1), (3, 2), (1, 5), (2, 8)]
+
+# Sort by the second element using lambda
+sorted_by_second = sorted(data, key=lambda x: x[1])
+print(sorted_by_second)
+# Output: [(4, 1), (3, 2), (1, 5), (2, 8)]
+
+# Sort by the second element using itemgetter (often more efficient for simple indexing)
+sorted_by_second_itemgetter = sorted(data, key=itemgetter(1))
+print(sorted_by_second_itemgetter)
+# Output: [(4, 1), (3, 2), (1, 5), (2, 8)]
