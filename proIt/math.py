@@ -96,3 +96,20 @@ for P, Q in product([False, True], repeat=2):
 # True	True	True
 
 # ----------------------
+# Example 3 — Set Relationships and Identities
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+C = {1, 2, 3, 4, 5, 6, 7}
+
+# 1 & 2: subset relations
+print("A ⊆ C:", A.issubset(C))
+print("B ⊂ C:", B < C)
+
+# 3: De Morgan’s law
+A_union_B = A | B
+A_comp = C - A
+B_comp = C - B
+left_side = C - A_union_B      # (A ∪ B)'
+right_side = A_comp & B_comp   # A' ∩ B'
+
+print("De Morgan's law holds:", left_side == right_side)
