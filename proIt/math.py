@@ -1,4 +1,5 @@
 # it is all about math
+from itertools import product
 import math
 
 
@@ -73,3 +74,25 @@ print("A ⊕ B =", sym_diff)
 # - is difference (in A but not in B)
 # ^ is symmetric difference (in A or B, but not both)
 # --------------------------------
+
+# Problem: Create a truth table for the expression
+# (¬P∨Q)→(P∧Q)
+
+
+def implies(a, b):
+    return (not a) or b
+
+
+print("P\tQ\t(¬P ∨ Q) → (P ∧ Q)")
+for P, Q in product([False, True], repeat=2):
+    expr = implies((not P) or Q, (P and Q))
+    print(f"{P}\t{Q}\t{expr}")
+
+# Output:
+# P	Q	(¬P ∨ Q) → (P ∧ Q)
+# False	False	False
+# False	True	False
+# True	False	False
+# True	True	True
+
+# ----------------------
