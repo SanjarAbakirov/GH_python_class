@@ -11,3 +11,9 @@ k = 3
 result = combinations(n, k)
 
 print(f"Number of ways to choose {k} students from {n}: {result}")
+
+# Number of ways to choose 3 students from 10: 120
+Explanation:
+    # We used math.comb(), which directly computes  C(n,k)
+    # Alternatively, you could use factorials manually:
+    # ------------------------------
