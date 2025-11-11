@@ -61,3 +61,15 @@ print("A ∪ B =", union)
 print("A ∩ B =", intersection)
 print("A - B =", difference)
 print("A ⊕ B =", sym_diff)
+
+# output
+# A ∪ B = {1, 2, 3, 4, 5, 6, 7, 8}
+# A ∩ B = {4, 5}
+# A - B = {1, 2, 3}
+# A ⊕ B = {1, 2, 3, 6, 7, 8}
+
+# | is union (all elements from both sets, no duplicates)
+# & is intersection (common elements)
+# - is difference (in A but not in B)
+# ^ is symmetric difference (in A or B, but not both)
+# --------------------------------
