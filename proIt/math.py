@@ -113,3 +113,26 @@ left_side = C - A_union_B      # (A ∪ B)'
 right_side = A_comp & B_comp   # A' ∩ B'
 
 print("De Morgan's law holds:", left_side == right_side)
+# Output
+# A ⊆ C: True
+# B ⊂ C: True
+# De Morgan's law holds: True
+
+# -------------------------------
+# This is the transitivity of implication — we’ll check if it’s a tautology (always true).
+
+
+def implies(a, b):
+    return (not a) or b
+
+
+print("P\tQ\tR\tExpression")
+tautology = True
+
+for P, Q, R in product([False, True], repeat=3):
+    expr = implies(implies(P, Q) and implies(Q, R), implies(P, R))
+    print(f"{P}\t{Q}\t{R}\t{expr}")
+    if not expr:
+        tautology = False
+
+print("\nIs the expression a tautology?", tautology)
