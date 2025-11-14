@@ -9,19 +9,19 @@ class TestCalc(unittest.TestCase):
     # self.assertEqual(result, 15)
 
     def test_add(self):
-        self.assertEqual(test.add(15, -15), 0)
+        self.assertEqual(test.add(10, -10), 0)
         self.assertEqual(test.add(-1, -1), -2)
         self.assertEqual(test.add(10, 9), 19)
 
     def test_subtract(self):
-        self.assertEqual(test.subtract(1, -1), 0)
-        self.assertEqual(test.subtract(-1, -1), -2)
-        self.assertEqual(test.subtract(10, 9), 19)
+        self.assertEqual(test.subtract(10, 5), 5)
+        self.assertEqual(test.subtract(-1, 1), -2)
+        self.assertEqual(test.subtract(-1, -1), 0)
 
-    def test_add(self):
-        self.assertEqual(test.add(1, -1), 0)
-        self.assertEqual(test.add(-1, -1), -2)
-        self.assertEqual(test.add(10, 9), 19)
+    def test_multiply(self):
+        self.assertEqual(test.multiply(10, 5), 50)
+        self.assertEqual(test.multiply(-1, 1), -1)
+        self.assertEqual(test.multiply(-1, -1), 1)
 
     def test_add(self):
         self.assertEqual(test.add(1, -1), 0)
