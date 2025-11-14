@@ -23,10 +23,10 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(test.multiply(-1, 1), -1)
         self.assertEqual(test.multiply(-1, -1), 1)
 
-    def test_add(self):
-        self.assertEqual(test.add(1, -1), 0)
-        self.assertEqual(test.add(-1, -1), -2)
-        self.assertEqual(test.add(10, 9), 19)
+    def test_divide(self):
+        self.assertEqual(test.divide(10, 5), 2)
+        self.assertEqual(test.divide(-1, 1), -1)
+        self.assertEqual(test.divide(-1, -1), 1)
 
 
 if __name__ == '__main__':  # run code within conditional - with unitttest.main
