@@ -4,13 +4,20 @@
 
 # print("Hello")
 
-import requests
+# import requests
 
 # Выполняем GET-запрос к указанному URL
-res = requests.get('https://skillbox.ru')
+# res = requests.get('https://skillbox.ru')
 
 # Печатаем код состояния ответа. 200 означает успешное выполнение запроса.
-print(res.status_code)
+# print(res.status_code)
 
 # Можно также вывести сам объект ответа
-print(res)
+# print(res)
+
+
+def greet(string):
+    print(string)
+
+
+greet(f"Hello")
