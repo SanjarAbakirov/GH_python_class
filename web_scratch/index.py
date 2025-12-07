@@ -13,5 +13,15 @@ print(html)
 <head >
 <title > Profile: Aphrodite < /title >
 </head >
+<body bgcolor = "yellow" >
+<center >
+<br > <br >
+Favorite animal: Dove
+<br > <br >
+<>
+
+
+</body >
+
 
 </html >
