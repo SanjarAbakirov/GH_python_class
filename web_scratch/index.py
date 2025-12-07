@@ -18,7 +18,7 @@ html = """
 <center>
 <br><br>
 Favorite animal: Dove
-<br> <br>
+<br><br>
 Favorite color: Red
 <br><br>
 Hometown: Mount Olympus
