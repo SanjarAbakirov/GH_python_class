@@ -10,19 +10,19 @@ html = html_bytes.decode("utf-8")  # convert to the str format
 
 print(html)
 html = """
-<html >
-<head >
-<title > Profile: Aphrodite < /title >
-</head >
-<body bgcolor = "yellow" >
-<center >
-<br > <br >
+<html>
+<head>
+<title> Profile: Aphrodite </title >
+</head>
+<body bgcolor = "yellow">
+<center>
+<br><br>
 Favorite animal: Dove
-<br > <br >
+<br> <br>
 Favorite color: Red
-<br > <br >
+<br><br>
 Hometown: Mount Olympus
-</center >
-</body >
-</html >
+</center>
+</body>
+</html>
 """
