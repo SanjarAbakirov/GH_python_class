@@ -7,3 +7,6 @@ page = urlopen(url)  # urlopen() returns HTTP responce onject
 
 html_bytes = page.read()  # returns a sequence bytes
 html = html_bytes.decode("utf-8")  # convert to the str format
+
+print(html)
+<html > </html >
