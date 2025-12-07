@@ -18,10 +18,9 @@ print(html)
 <br > <br >
 Favorite animal: Dove
 <br > <br >
-<>
-
-
+Favorite color: Red
+<br > <br >
+Hometown: Mount Olympus
+</center >
 </body >
-
-
 </html >
