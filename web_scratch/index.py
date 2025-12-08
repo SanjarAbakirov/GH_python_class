@@ -34,3 +34,6 @@ start_index
 
 end_index = html.find("</title>")
 end_index
+
+title = html[start_index:end_index]
+title
