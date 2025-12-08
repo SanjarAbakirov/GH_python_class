@@ -32,4 +32,5 @@ title_index
 start_index = title_index + len("<title>")
 start_index
 
+end_index = html.find("</title>")
 end_index
