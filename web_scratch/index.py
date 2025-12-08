@@ -27,3 +27,4 @@ Hometown: Mount Olympus
 </html>
 """
 title_index = html.find("<title>")
+title_index
