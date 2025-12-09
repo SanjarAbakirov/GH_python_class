@@ -5,6 +5,8 @@ const express = require('express')
 
 const app = express()
 
-axios('https://www.theguardian.com/international')
+const url = 'https://www.theguardian.com/international'
+
+axios(url)
 
 app.listen(PORT, () => console.log(`server running on PORT ${PORT}`))
