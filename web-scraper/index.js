@@ -10,7 +10,7 @@ const url = 'https://www.theguardian.com/international'
 axios(url)
     .then(response => {
         const html = response.data
-        console.log(html);
+        console.log(html)
 
     })
 
