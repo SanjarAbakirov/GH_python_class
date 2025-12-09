@@ -5,6 +5,6 @@ const express = require('express')
 
 const app = express()
 
-bob
 
-bob.listen(PORT, () => console.log(`server running on PORT ${PORT}`))
+
+app.listen(PORT, () => console.log(`server running on PORT ${PORT}`))
