@@ -5,7 +5,7 @@ const express = require('express')
 
 const app = express()
 
-const url = 'https://www.theguardian.com/uk'
+const url = 'https://www.theguardian.com'
 
 axios(url)
     .then(response => {
