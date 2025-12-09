@@ -9,7 +9,7 @@ const url = 'https://www.theguardian.com/international'
 
 axios(url)
     .then(response => {
-        response.data
+        const html = response.data
     })
 
 app.listen(PORT, () => console.log(`server running on PORT ${PORT}`))
