@@ -11,7 +11,7 @@ axios(url)
     .then(response => {
         const html = response.data
         const $ = cheerio.load(html)
-        $('.<div style="--grid-area:headline" data-gu-name="headline" class="dcr-1fnjjtg">', html).each(function () {
+        $('.<div class="dcr-cohhs3">', html).each(function () {
             $(this).text()
             $(this).attr('href')
         }
