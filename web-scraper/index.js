@@ -14,9 +14,7 @@ axios(url)
         $('.dcr-cohhs3', html).each(function () {
             $(this).text()
             $(this).attr('href')
-        }
-
-        )
+        })
     })
 
 app.listen(PORT, () => console.log(`server running on PORT ${PORT}`))
