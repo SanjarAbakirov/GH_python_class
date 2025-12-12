@@ -11,7 +11,7 @@ axios(url)
     .then(response => {
         const html = response.data
         const $ = cheerio.load(html)
-        $('.<title>Democrats release more photos from Jeffrey Epstein estate as congressman says new batch ‘raises even more questions’ – live | US politics | The Guardian</title>')
+        $('.<title>Democrats release more photos from Jeffrey Epstein estate as congressman says new batch ‘raises even more questions’ – live | US politics | The Guardian</title>', html)
     })
 
 app.listen(PORT, () => console.log(`server running on PORT ${PORT}`))
